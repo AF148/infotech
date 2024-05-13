@@ -1,0 +1,33 @@
+
+.color1 { color: #55158f };
+.color2 { color: #44107e };
+.color3 { color: #320b6d };
+.color4 { color: #21055c };
+.color5 {color:  #0f004b };
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient( 50deg, blue, purple) ;
+
+}
+
+#menu {
+  background-image: linear-gradient(45deg, #ba3c3d, #a5aad9);
+    float: left;
+}
+
+#menu ul {
+    list-style: none; /* Removendo marcadores de lista */
+    margin: 0; /* Removendo margens */
+    padding: 0; /* Removendo preenchimentos */
+}
+
+#menu li {
+    display: inline-block; /* Exibindo elementos da lista na mesma linha */
+    margin-right: 20px; /* Margem à direita entre os itens do menu */
+}
+
+#menu a {
+    text-decoration: none; /* Removendo sublinhado dos links */
+    color:purple; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+}
